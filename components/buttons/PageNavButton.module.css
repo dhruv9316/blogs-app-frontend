@@ -1,0 +1,20 @@
+
+.main {
+    display: flex;
+    gap: 5px;
+    color: #3066c6;
+    width: max-content;
+    padding: 0 10px;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+}
+
+.main:hover {
+    background-color: #3066c6;
+    color: white;
+    cursor: pointer;
+}
