@@ -36,14 +36,14 @@ export default async function BlogPostDetails({ params }) {
         <div className={styles.title}>
           <h2>Title</h2>
           <b>
-            {post.title.toUpperCase()}
+            {post?.title ? post.title.toUpperCase() : 'N/A'}
           </b>
         </div>
 
         <div className={styles.description}>
           <h2>Description</h2>
           <p>
-            {post.description}
+            {post?.description ?? 'N?A'}
           </p>
         </div>
 
