@@ -8,7 +8,7 @@ const NavBar = () => {
     <div className={styles.wrapper}>
         <div className={styles.container}>
             <div className={styles.logoImg}>
-                <Image src={'/ideausher-logo.webp'} width={100} height={100} />
+                <Image src={'/BX-logo.png'} width={100} height={100} />
             </div>
             
             <div className={styles.navBtns}>

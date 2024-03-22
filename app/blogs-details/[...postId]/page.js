@@ -10,17 +10,17 @@ const fetchSelectedBlogPost = async (id) => {
 
     return result.data?.data ?? {}
   } catch (err) {
-    console.log("error while fetching selected blog post => ", err)
+    // console.log("error while fetching selected blog post => ", err)
     return {}
   }
 }
 
 
 export default async function BlogPostDetails({ params }) {
-  // console.log("params of /blog/[...postId] => ", params)
+  // // console.log("params of /blog/[...postId] => ", params)
   const postId = params.postId[0]
   const post = await fetchSelectedBlogPost(postId)
-  // console.log("post of BlogPostDetails => ", post)
+  // // console.log("post of BlogPostDetails => ", post)
 
   return (
     <div className={styles.wrapper}>

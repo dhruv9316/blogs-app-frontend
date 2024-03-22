@@ -4,7 +4,7 @@ import Image from 'next/image'
 import styles from './BlogsMain.module.css'
 
 const BlogsMain = ({posts}) => {
-//   console.log("posts of blogsMain component => ", posts)
+//   // console.log("posts of blogsMain component => ", posts)
 
   return (
     posts && posts.length > 0

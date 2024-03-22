@@ -14,13 +14,13 @@ const fetchBlogPosts = async (skip, limit) => {
 
     return result.data?.data ?? []
   } catch (err) {
-    console.log("error while fetching blog posts => ", err)
+    // console.log("error while fetching blog posts => ", err)
     return []
   }
 }
 
 export default async function BlogListPage({ params }) {
-  console.log("params of /blog/[...paginationParams] => ", params)
+  // console.log("params of /blog/[...paginationParams] => ", params)
   const skipParam = parseInt(params.paginationParams[0]) || 1
   const skip = Math.max(1, skipParam);
   const posts = await fetchBlogPosts(skip, 9);
