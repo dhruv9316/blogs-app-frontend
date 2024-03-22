@@ -5,22 +5,10 @@ import NavBar from "@/components/navbar/NavBar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Blogs Xplorer",
+  title: "Blog Xplorer",
   description: "Blogs app that contains so many blogs with Pagination",
   icons: {
     icon: '/favicon.ico'
-    // icon: [
-    //   // {
-    //   //   media: '(prefers-color-scheme: light)',
-    //   //   url: '/favicon.ico',
-    //   //   href: '/favicon.ico',
-    //   // },
-    //   {
-    //     // media: '(prefers-color-scheme: dark)',
-    //     url: '/favicon.ico',
-    //     href: '/favicon.ico',
-    //   },
-    // ],
   }
 };
 
